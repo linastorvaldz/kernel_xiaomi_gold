@@ -128,7 +128,7 @@ enum {
 	eint_inverter_state000,
 };
 
-extern int accdet_read_audio_res(unsigned int res_value);
+extern int mt6357_accdet_read_audio_res(unsigned int res_value);
 /* just be called by audio module for DC trim */
 extern void mt6357_accdet_late_init(unsigned long data);
 extern const struct file_operations *accdet_get_fops(void);
