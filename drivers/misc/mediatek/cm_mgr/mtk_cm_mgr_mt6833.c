@@ -39,6 +39,7 @@
 #endif /* CONFIG_MTK_DVFSRC */
 #include "mtk_cm_mgr_mt6833.h"
 #include "mtk_cm_mgr_common.h"
+#include "mtk_cm_ipi.h"
 
 /* #define CREATE_TRACE_POINTS */
 /* #include "mtk_cm_mgr_events_mt6873.h" */
