@@ -8,7 +8,7 @@ PRE_DEFCONFIG_CMDS="
   ${ROOT_DIR}/${KERNEL_DIR}/scripts/kconfig/merge_config.sh -m -r \
     ${ROOT_DIR}/${KERNEL_DIR}/arch/arm64/configs/gki_defconfig \
     ${ROOT_DIR}/${KERNEL_DIR}/arch/arm64/configs/mgk_64_k510_defconfig \
-    ${ROOT_DIR}/${KERNEL_DIR}/kernel/configs/gold_defconfig
+    ${ROOT_DIR}/${KERNEL_DIR}/arch/arm64/configs/gold_defconfig
 "
 
 MAKE_GOALS="${MAKE_GOALS} Image.gz dtbs"
