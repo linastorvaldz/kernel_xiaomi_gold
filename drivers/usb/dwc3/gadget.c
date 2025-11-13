@@ -3741,6 +3741,7 @@ void dwc3_stop_active_transfer(struct dwc3_ep *dep, bool force,
 	 *
 	 * This mode is NOT available on the DWC_usb31 IP.
 	 */
+
 	__dwc3_stop_active_transfer(dep, force, interrupt);
 }
 EXPORT_SYMBOL_GPL(dwc3_stop_active_transfer);
